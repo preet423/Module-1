@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    background: rgb(221, 214, 214);
+  }
+  
+  .boxes {
+    flex-direction: column;
+    display: flex;
+  }
+  
+  #one,
+  #two,
+  #three,
+  #four,
+  #five,
+  #six,
+  #seven,
+  #eight,
+  #nine,
+  #zero,
+  #dot,
+  #clear {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    text-align: center;
+  }
+  
+  #plus,
+  #minus,
+  #multi,
+  #division,
+  #equalto {
+    background-color: rgb(228, 219, 219);
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    text-align: center;
+  }
+  
+  button {
+    border-radius: 9px;
+    margin: 1px;
+    cursor: pointer;
+  }
+  
+  #clear {
+    background-color: orange;
+    height: 50px;
+    width: 217px;
+    border: 2px solid black;
+    margin: 1px;
+  }
+  
+  #display {
+    height: 50px;
+    width: 217px;
+    background-color: black;
+    border: 2px solid black;
+    margin: 1px;
+    border-radius: 9px;
+    color: white;
+  }
+  
